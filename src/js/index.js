@@ -12,7 +12,6 @@ botoes.forEach((botao, index) => {
 
         personagemSelecionado.classList.remove('selecionado');
         personagens[botaoindex].classList.add('selecionado');
-        console.log(botaoindex);
 
     });
 });
